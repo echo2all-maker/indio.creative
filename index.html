@@ -56,31 +56,27 @@
         </div>
     </nav>
 
-    <!-- Hero Slider Section -->
-    <section id="home" class="relative h-screen w-full overflow-hidden bg-black">
-        <div id="slider" class="absolute inset-0">
-            <div class="slide active absolute inset-0 w-full h-full bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&q=80&w=2000');">
-                <div class="absolute inset-0 bg-black/40"></div>
-            </div>
-            <div class="slide inactive absolute inset-0 w-full h-full bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&q=80&w=2000');">
-                <div class="absolute inset-0 bg-black/50"></div>
-            </div>
+    <!-- Static Hero Section (Pengganti Carousel) -->
+    <section id="home" class="relative h-screen w-full flex items-center justify-center bg-black overflow-hidden">
+        <!-- Background Image Statis (GANTI URL INI DENGAN FOTO PORTFOLIO LU) -->
+        <div class="absolute inset-0 w-full h-full bg-cover bg-center" style="background-image:Background_00.jpg;">
+            <!-- Overlay gelap biar teks lebih menonjol -->
+            <div class="absolute inset-0 bg-black/60"></div>
         </div>
 
-        <div class="absolute inset-0 z-20 flex flex-col justify-center px-6 md:px-20 max-w-7xl mx-auto pointer-events-none">
-            <h1 class="text-5xl md:text-8xl font-bold capitalize tracking-tighter leading-none mb-4" id="slide-title">
-                rooted in experience<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-zinc-100 to-zinc-500">driven by stories.</span>
+        <div class="relative z-20 flex flex-col justify-center px-6 md:px-20 max-w-7xl mx-auto w-full text-center md:text-left">
+            <h1 class="text-5xl md:text-8xl font-bold Capitalize tracking-tighter leading-none mb-6">
+                Visual<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-zinc-100 to-zinc-500">Storytelling.</span>
             </h1>
-            <p class="text-lg md:text-xl text-zinc-300 max-w-lg mb-8" id="slide-desc">
-                setiap pengalaman menjadi akar yang menguatkan langkah kami. Dari sanalah lahir cerita-cerita yang menghubungkan ide, emosi, dan makna dalam setiap karya.
+            <p class="text-lg md:text-xl text-zinc-300 max-w-lg mb-10 mx-auto md:mx-0">
+                Kami mengubah konsep mentah menjadi sinematik yang tak terlupakan.
             </p>
-            <div class="pointer-events-auto">
-                <a href="#portfolio" class="inline-flex items-center gap-2 bg-amber-500 text-black px-6 py-3 font-bold hover:bg-amber-400 transition-colors rounded-sm">
+            <div>
+                <a href="#portfolio" class="inline-flex items-center gap-2 bg-amber-500 text-black px-8 py-4 font-bold hover:bg-amber-400 transition-colors rounded-sm text-lg">
                     Explore Our Work <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
         </div>
-
     </section>
 
     <!-- Manifesto -->
